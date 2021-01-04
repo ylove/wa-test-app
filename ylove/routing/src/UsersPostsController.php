@@ -18,7 +18,6 @@ class UsersPostsController extends Controller
      */
     public function show($username, $id)
     {
-        //
         return view('routing::posts', ['post_id' => $id, 'username' => $username ]);
     }
 

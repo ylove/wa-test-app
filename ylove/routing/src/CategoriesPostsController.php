@@ -16,7 +16,6 @@ class CategoriesPostsController extends Controller
      */
     public function index()
     {
-        //
         return view('routing::main', [ 'taxonomy' => 'CategoriesPosts' ]);
     }
 
@@ -29,7 +28,6 @@ class CategoriesPostsController extends Controller
      */
     public function show($category, $id)
     {
-        //
         return view('routing::posts', ['post_id' => $id, 'category' => $category ]);
     }
 
