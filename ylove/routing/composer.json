@@ -1,0 +1,19 @@
+{
+    "name": "ylove/routing",
+    "description": "Routing Test App",
+    "authors": [
+        {
+            "name": "Yitz Jordan",
+            "email": "ylove613@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+      "laravel": {
+          "providers": [
+              "Ylove\\Routing\\RoutingServiceProvider"
+          ]
+      }
+  }
+}
